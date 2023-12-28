@@ -1,0 +1,170 @@
+In this video we will listen to several
+data professionals talk about their
+experience of working with varied
+data sources and types of data.
+So, you'd be surprised
+the different ways that data can
+come at you.
+I tend to be a relational database fan.
+And so I
+spend a lot of time with SQL, and
+using the power of SQL, to deal with
+moving data
+from one place to another. To deal with
+structuring of data,
+to deal with all the security details
+around data.
+But obviously
+that doesn't apply to every scenario.
+And even when we're dealing
+entirely in relational databases, we're
+often moving data from one relational
+database to another.
+And especially when we're talking about
+one vendor to another, that can
+be challenging.
+The things that also get in the way
+tend to be the versioning.
+So, sometimes the feature of something
+that you want is in a version
+two levels above where you are, or it
+doesn't work the same way as it did two
+versions ago.
+So, working with multiple data sources is
+about flexibility.
+It's about finding the
+the function that works, and works
+with the performance you need.
+Moving data one time is usually not all
+that hard as long as we're sub terabyte,
+but moving data consistently, and
+continually,
+and in a performant way can cause
+us to evaluate a lot of different
+solutions. So we really need to be
+open to new ideas and
+looking for new solutions that meet
+the requirements that we have.
+Mostly I work with relational databases.
+They're extremely flexible and which
+took the test of time,
+however, with the evolution of
+unstructured data, such as
+logs, documents, XML, and JSON
+the reputation as a cue for all
+of your data problems came under
+intense scrutiny.
+And most of data intensive
+applications, such as IOT
+and social media applications started to
+look elsewhere.
+For example, Google released a
+white paper
+back in 2006 called Google Bigtable,
+and that idea quickly caught fire.
+For example,
+Cassandra and Hbase came out of the same
+architectural model as the
+Google Bigtable.
+And they became widely popular databases
+to solve some of the problems that
+relational databases failed to solve.
+For example, relational databases
+struggle a little bit
+with heavy ride-intensive applications
+such as IOT, or sensor data, or
+social media data because the B3
+data structures that drive, or power,
+these relational databases
+slows down due to their nature of the
+random reads and random rights
+for the heavy ride applications.
+It's an inevitable part of a data engineer's
+job to work with a variety of data.
+You will need to work with standard
+formats like CSV
+JSON, XML, but also you'll need to work
+with proprietary formats.
+And you will need to get data in
+different sources,
+whether it be relational databases, NoSQL,
+or big data repositories.
+You know you will need to work with data
+at rest, streaming data, or data in motion.
+And you might not have
+the skills to work with all of these
+different types of data sources from
+day one,
+but you need to be able to learn as you
+go and pick up the skills
+required for the project to work with
+different data sets, different data
+formats, and different
+data sources.
+When it comes to the data formats,
+log data, XML data, JSON, etc., each of them
+comes with their own challenges.
+For example,
+log data is
+extremely challenging because it's
+unstructured, and you may need to write
+your own custom tools
+to pass the data depending on what you
+want to look at.
+Whereas XML was widely popular like
+a decade ago, especially with the soap
+protocol of the web applications.
+However, soon the web developers and
+the corporations discovered that
+it can be resource intensive,
+especially memory because it has
+both the starting and ending tags.
+So, then JSON
+came into the picture. They got it
+of the ending tags and just they looked
+like a key value pairs
+and it saved some resources. And it
+is now
+widely used as part of the RESTful
+APIs.
+And then even newer versions of the
+data formats, such as
+Apache Avro were
+gaining a wide popularity because of
+the efficiency
+on how they store the data.
+One particular situation where we
+were converting
+data from a DB2 database into a
+SQL Server database and it was
+challenging because the way
+that each of those expect imports and
+exports to happen is a
+little bit different.
+The data was particularly challenging,
+and that's where a lot of your
+your challenge might come from in this
+project, is from the data itself.
+In this particular case, the data had a
+lot of different characters in it.
+So, usually we're looking for
+a character we can use as a delimiter.
+Oftentimes that's
+comma delimited.
+So, we can separate our fields
+using commas,
+but we also have to think about
+situations where we have
+data that has commas in it. How do we
+properly separate that data? How do we
+properly define our fields?
+And in this particular case, we had to
+use different separators for different
+tables because
+every single special character that
+we could think of was in
+one of those tables. And
+the special characters that weren't,
+were sometimes ones we couldn't
+use for separation, such as the bell
+character.
