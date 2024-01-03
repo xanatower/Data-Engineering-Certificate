@@ -1,0 +1,159 @@
+In this video we will listen to data
+professionals talk about some of the
+data engineering tools,
+databases, and data repositories they
+work with.
+The ecosystem of data engineering is
+very very vast.
+We work especially with, mostly with,
+open source tools. So, we work with
+RDBMS databases like MySQL. We work with
+NoSQL databases like MongoDB, Cassandra,
+graph databases like Neo4j.
+Python is pretty much indispensable.
+So, whatever feature we feel missing in
+our data engineering space,
+we first try to, you know,
+use Python to
+get that into a place. And then over a
+period of time we see if any product can
+take its place. We also work with
+tools like
+Apache Airflow to create
+data pipelines. We work with tools like
+Spark for big data processing.
+We work with
+Kafka to handle streaming data.
+We work with Talend for
+ETL functionality. We also work with
+tools like
+Beautiful Soup and Scrappy for
+web scraping. And we also look at
+a variety of cloud storages for our
+archival and then for our daily storage
+purposes. Before Coursera I was
+in a non-profit where SQL server was the
+data repository and we use a SQL server
+integration service, as well as Okada
+to do
+data integration. And in Coursera
+AWA's worksheet is our data warehouse.
+And we use
+AWS A3 as our data lake.
+We have internal tool to do...
+to build up,
+to build our ETL pipeline, and schedule
+our ETL pipeline but now we are
+moving to use an open source tool
+called
+Apache Airflow to do
+data orchestration. I work with
+relational databases such as IBM DB2,
+PostgreSQL, and Microsoft SQL Server.
+And I also have exposure to working on
+NoSQL database such as
+Cassandra and MongoDB. And I worked on
+streaming technologies
+for replication such as WebSphere MQ,
+and also for back-end processing
+by moving the transactional data
+by using the Kafka queues onto the
+back office databases.
+At the same time, I also worked on
+data engineering tools, or
+data movement tools,
+for moving data from one data source to
+another. For example, I worked on
+SSIS by building these data movement
+packages.
+At the same time I also worked on this
+cool tool called
+NiFi. I think it's a... this NiFi
+is now maintained by
+Apache Foundation
+which is an open source foundation.
+Which I highly recommend looking at
+some of their projects
+because they're all
+open source,
+the code is open. You can
+go through the source code and learn
+a lot about some of these products and
+even projects. And you can,
+if you're an enthusiast, can have a lot of
+time on your hands you can even
+contribute
+to some of these projects.
+I digress but
+NiFi can be used to
+move data between heterogeneous
+data sources.
+And I also developed my own
+scripts such as Shell, and Perl, and
+written Java APIs to move
+data between different applications
+and vendors.
+So, most people, myself included,
+who've done work in data engineering
+have had to work with a number of
+databases and tools.
+Having spent a good part of my data
+career at IBM,
+I had to do a lot of work with the IBM
+DB2 database
+and later became a product manager
+for it.
+But I've also had to work with other
+databases like MySQL
+and PostgreSQL. And then as
+part of my job evolved, I had to pick up
+skills in
+Big Data Systems like Hadoop and Spark.
+So, it's important that as a data
+engineering, a field that continues to
+evolve, you need to, you know,
+come up with... you need to become
+a lifelong learner
+and keep picking up skills that are
+going to be required
+for your job and the problems that
+you're trying to solve.
+So, as long as you're good with
+data fundamentals,
+you should be able to quickly pick up
+these new skills and technologies.
+The primary product that I've worked
+with my entire career
+is IBM's DB2 on mid-range platforms, so,
+on Linux, Unix and Windows.
+To me this is a great choice in the
+relational database space.
+I also work very heavily with
+AWS products.
+I've been working with databases on RDS,
+Microsoft SQL Server. We've done
+a little bit of MariaDB there. We also do
+MariaDB outside of that
+on our own servers. Those are the primary
+relational database products that
+we work with. There are a ton of other
+tools we work with in order to properly
+manage those
+or to manage workflows around those.
+Of course Github or Git.
+You have to be familiar with those.
+Those are are integral to
+any process in a DevOps organization or
+in most non-DevOps organizations at this
+point. Using Jenkins... we use
+Jenkins for a lot of things; to spin up
+containers, to do maintenance jobs, to
+manage code deploys. There's a
+lot of important stuff that
+that we do with Jenkins as well.
+we use Liquibase.
+Liquibase is actually excellent.
+We use it with containers
+to very easily have some management of
+the changes that are made to our
+database schemas.

@@ -1,0 +1,56 @@
+Gartner defines data integration as a discipline comprising the practices, architectural techniques,
+and tools that allow organizations to ingest, transform, combine, and provision data across
+various data types.
+The report further explains that data integration has several usage scenarios, such as data
+consistency across applications, master data management, data sharing between enterprises,
+and data migration and consolidation.
+In the field of analytics and data science, data integration includes
+accessing, queueing, or extracting data from operational systems
+transforming and merging extracted data either logically or physically
+data quality and governance, and
+delivering data through an integrated approach for analytics purposes
+For example, to make customer data available for analytics, you would need to extract individual
+customers' information from operational systems such as sales, marketing, and finance.
+You would then need to provide a unified view of the combined data so that your users can
+access, query, and manipulate this data from a single interface to derive statistics, analytics,
+and visualizations.
+How does a data integration platform relate to ETL and data pipelines?
+While data integration combines disparate data into a unified view of the data, a data
+pipeline covers the entire data movement journey from source to destination systems.
+In that sense, you use a data pipeline to perform data integration, while ETL is a process
+within data integration.
+There is no one approach to data integration.
+However, modern data integration solutions typically support the following capabilities:
+An extensive catalog of pre-built connectors and adopters that help you connect and build
+integration flows with a wide variety of data sources such as databases, flat files, social
+media data, APIs, CRM and ERP applications.
+Open-source architecture that provides greater flexibility and avoids vendor lock-in.
+Optimization for both batch processing of large-scale data and continuous data streams,
+or both.
+Integration with Big Data sources.
+Support for big data is increasingly driving the decision regarding choice of integration
+platforms.
+Additional functionalities.
+For example, specific demands around data quality and governance, compliance, and security.
+Portability, which ensures that as businesses move to cloud models, they should be able
+to run their data integration platforms anywhere.
+And data integration tools are able to work natively in a single cloud, multi-cloud, or
+hybrid cloud environment.
+There are many data integration platforms and tools available in the market, ranging
+from commercial off-the-shelf tools to open-source frameworks.
+IBM offers a host of data integration tools targeting a range of enterprise integration
+scenarios, such as Information Server for IBM, Cloud Pak for Data, IBM Cloud Pak for
+Integration, IBM Data Replication, IBM Data Virtualization Manager, IBM InfoSphere Information
+Server on Cloud, and IBM InfoSphere DataStage all target a range of enterprise data integration
+scenarios.
+Talend's data integration tools include Talend Data Fabric, Talend Cloud, Talend Data Catalog,
+Talend Data Management, Talend Big Data, Talend Data Services, and Talend Open Studio.
+SAP, Oracle, Denodo, SAS, Microsoft, Qlik, and TIBCO are some of the other vendors that
+offer data integration tools and platforms.
+Examples of open-source frameworks include Dell Boomi, Jitterbit, and SnapLogic.
+There are a significant number of vendors who are offering cloud-based Integration Platform
+as a Service, or iPaaS, as a hosted service via virtual private cloud or hybrid cloud.
+Such as the Adeptia Integration Suite, Google Cloud's Cooperation 534, IBM's Application
+Integration Suite on Cloud, and Informatica's Integration Cloud.
+The data integration space continues to evolve as businesses embrace newer technologies and
+as data grows, be it in the variety of sources or its use in business decision-making.

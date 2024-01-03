@@ -1,0 +1,91 @@
+In this video, we will learn about some of the different tools and processes that work
+to move data from source to destination systems, such as:
+ETL, or the Extract, Transform, and Load Process
+ELT, or the Extract, Load, and Transform Process; and
+Data Pipelines
+Now we come to the process that is at the heart of gaining value from data.
+The Extract, Transform, and Load process, or ETL.
+ETL is how raw data is converted into analysis-ready data.
+It is an automated process in which you gather raw data from identified sources,
+extract the information that aligns with your reporting and analysis needs,
+clean, standardize, and transform that data into a format that is usable in the context
+of your organization; and
+load it into a data repository
+While ETL is a generic process, the actual job can be very different in usage, utility,
+and complexity.
+Extract is the step where data from source locations is collected for transformation.
+Data extraction could be through
+Batch processing, meaning source data is moved in large chunks from the source to the target
+system at scheduled intervals.
+Tools for batch processing include Stitch and Blendo.
+Stream processing, which means source data is pulled in real-time from the source and
+transformed while it is in transit and before it is loaded into the data repository.
+Tools for stream processing include Apache Samza, Apache Storm, and Apache Kafka.
+Transform involves the execution of rules and functions that convert raw data into data
+that can be used for analysis.
+For example,
+making date formats and units of measurement consistent across all source data
+removing duplicate data
+filtering out data that you do not need
+enriching data, for example, splitting full name to first, middle, and last names
+establishing key relationships across tables
+applying business rules and data validations
+Load is the step where processed data is transported to a destination system or data repository.
+It could be:
+Initial loading, that is, populating all the data in the repository;
+Incremental loading, that is, applying ongoing updates and modifications as needed periodically;
+or
+Full refresh, that is, erasing contents of one or more tables and reloading with fresh
+data
+Load verification—which includes data checks for missing or null values, server performance,
+and monitoring load failures, are important parts of this process step.
+It is vital to keep an eye on load failures and ensure the right recovery mechanisms are
+in place.
+ETL has historically been used for batch workloads on a large scale.
+However, with the emergence of streaming ETL tools, they are increasingly being used for
+real-time streaming event data as well.
+Some of the popular ETL tools available include IBM Infosphere Information Server, AWS Glue,
+Improvado, Skyvia, HEVO, and Informatica PowerCenter.
+Now let’s look at a variation of the ETL process—the Extract, Load, and Transfer,
+or ELT process.
+In the ELT process, extracted data is first loaded into the target system, and transformations
+are applied in the target system.
+The destination system for an ELT pipeline is most likely a data lake, though it can
+also be a data warehouse.
+ELT is a relatively new technology powered by cloud technologies.
+Why do we need an ELT process?
+ELT is useful for processing large sets of unstructured and non-relational data.
+It is ideal for data lakes where transformations on the data are applied once the raw data
+is loaded into the data lake.
+The ELT process has several advantages.
+Since the raw data is delivered directly to the destination system rather than a staging
+environment, this shortens the cycle between extraction and delivery.
+ELT paired with a data lake allows you to ingest volumes of raw data as immediately
+as the data becomes available.
+Compared to the ETL process, ELT affords greater flexibility to analysts and data scientists
+for exploratory data analytics.
+ELT transforms only that data which is required for a particular analysis so it can be leveraged
+for multiple use cases.
+In the ETL process, the entire structure of the data in the warehouse may need to be modified
+if it is not suited for a new use case.
+ELT is more suited to work with Big Data.
+It’s common to see the terms ETL or ELT and data pipelines used interchangeably.
+And although both move data from source to destination, data pipeline is a broader term
+that encompasses the entire journey of moving data from one system to another, of which
+ETL and ELT may be subsets.
+Data pipelines can be architected for batch processing, for streaming data, and a combination
+of batch and streaming data.
+In the case of streaming data, data processing or transformation, happens in a continuous
+flow.
+This is particularly useful for data that needs constant updating, such as data from
+a sensor monitoring traffic.
+A data pipeline is a high performing system that supports both long-running batch queries
+and smaller interactive queries.
+The destination for a data pipeline is typically a data lake, although data may also be loaded
+to different target destinations, such as another application or a visualization tool.
+There are a number of data pipeline solutions available, most popular among them being Apache
+Beam, AirFlow, and DataFlow.
+In this video, we learned about some of the different data movement approaches—the ETL
+(or Extract, Transfer, and Load process) and ELT (or the Extract, Load, and Transform process).
+We also learned about Data Pipelines, encompassing the complete journey of data from one system
+to another.
