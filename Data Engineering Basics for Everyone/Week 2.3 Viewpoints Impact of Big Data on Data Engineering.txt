@@ -1,0 +1,46 @@
+In this video, we will listen to
+several data professionals talk about the impact of Big Data on data engineering.
+So how is the Big Data changing and shaping the field
+of data engineering. Big Data can be described as the data that
+has these four characteristics, also known as four Vs; velocity,
+veracity, volume, and variety. Big Data has had a
+major impact on data engineering, making it a much
+more diverse and a rich field. It's quite natural because
+with all the data that the organizations are collecting
+these days, being able to make sense of it and derive insights
+from it is becoming more and more relevant and critical. And that has opened up a vast
+opportunity. Not only have we seen the emergence of new
+technologies and products related to working with Big
+Data, it's also created a huge demand for professionals who can
+effectively work with large volumes and variety of data,
+both for building and managing these big data systems, but also
+for analyzing data within them. In the pre-IoT on
+social media days, the number of ways you can
+ingest the data into a database are really small. Like
+for example, you have a data entry analyst that's putting data into these
+databases at a very slow pace. But in the past decade,
+especially with these all new gadgets and devices talking to
+each other on these APIs, pushing latest updates to
+these different gadgets, the nature of the data itself
+changed. As a result of this evolution, the data engineering
+envolved as well because your traditional RDBMSes are not a
+one-size fits-all solution like a lot of database administrators
+and data engineers discovered in a hardware. With these variety of
+data sources and volumes, the field of data engineering
+itself evolved significantly, and data engineers ended up
+inventing these new data sources such as Google BigTable,
+Cassandra, Graph-based Databases, Hadoop, MapReduce to analyze these
+petabytes of data. So data engineers ended up writing their
+own tools and also learning and working on new technologies. So
+there was a big evolution due to Big Data. Big Data has
+fundamentally changed things in that organizations are much more
+accepting of storing large amounts of data. Storage for data, actual disk space, is no
+longer a big issue. We've gotten to the point where we stored a
+lot more data, and that's what the big data buzzword storm has
+really brought about. That, and better ways of handling large
+amounts of data. You know, we can think of Big Data in
+different ways. There's obviously unstructured data
+which has become a huge thing and is usually not handled
+within databases. If it is, it's handled in something like MongoDB.
+And then there's also just a vast amount more of data that
+we're dealing with.
