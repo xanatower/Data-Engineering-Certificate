@@ -1,0 +1,54 @@
+In this video, we will listen
+to several data professionals talk about the importance of
+data security as it relates to data engineering. So if your data is not secure,
+nothing else about it really is going to matter in the long run.
+There are many companies who are examples of serious data
+breaches, and while that won't necessarily put you out of
+business these days, that depends on the size of your
+organization somewhat to begin with. If you're a smaller
+organization and you lose access to your own data, that's
+certainly a potentially company-ending problem. You really
+can't understate the importance of data security. It's often
+something we think of, oh we'll, harden it after go live or we'll
+harden it just before go live. But really it's something that
+you have to be thinking about data security along every step
+of the way. The importance of security of data can't be stressed enough. A few years
+ago, The Economist magazine published an article saying the
+world's most valuable resource is no longer oil, but data. So if data is the most valuable
+resource an organization has, it needs to be secured and protected. And failure to do so
+can have catastrophic consequences. So data security, governance, compliance, these
+are not just things that a data engineer needs to worry about. This needs to be an important
+part of not just the data architecture, but the entire
+organizational processes and every part of the organization
+needs to keep on top of these things. We have to make sure
+that when we have separate production and non-production
+environments that our production data doesn't get unmasked into a
+lower environment. There are absolutely data breaches that
+can happen that way. We have to think about making sure that
+people who have access to production data really need that
+access to production data. The important thing is to understand
+the security levels and roles for the tool you're using, and
+make sure that each user is getting the least privilege
+they need in order to do their jobs. It's when we give people
+more access that we really open things up to data breaches
+and data security problems. Most of the threats to your data
+are actually more likely to come from within your organization
+than without. It may be exciting, or whatever, to think of
+somebody coming from outside of your organization to get to your
+data, but most often that threat is going to come from inside your organization. A lot
+of the things that we hear about in the data profession are
+things like people at prescription drug places
+accessing the prescriptions of celebrities. There are things
+along those lines that we have to be very careful in
+protecting the data. Data is a natural resource these
+days, right? The world of Big Data, data is oil, that's our new
+natural resource. So it's our job to make sure that that financial aspect of
+valuable data is protected and that our organization is
+not at risk for being in the news as one of those causing
+a data breach or even worse, being put out of business
+because of a data breach. I consider part of data
+security, the ability to restore my data and the ability to
+recover if a particular set of hardware fails. To me, that's
+part of security, because if we lose the data because of a
+hardware failure, that means we don't have access to the data,
+which is part of data security in my own estimation.
