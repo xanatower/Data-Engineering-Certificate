@@ -1,0 +1,54 @@
+One of the things query languages help us
+do is access data in the database so that we can understand it better. In this video, we will learn about some basic
+querying techniques for analyzing data in a database. These include counting and aggregating your
+data set, identifying extreme values, slicing data, sorting data, filtering patterns, and
+grouping data. References to specific functions and operators,
+in this video, map to SQL, which we all know is a query language for RDBMSes. However, the querying techniques are applicable
+to other query languages as well. NoSQL databases, for example, have their own
+SQL-like query languages, such as Cassandra CQL and Cypher for Neo4J. Also APIs, that can be used to query data. Something very basic that you do when you
+start with a data set for analysis is to take stock of how much data you have. In SQL, for example, you can use the COUNT()
+function to count the number of rows, or records, you have in your data set. The sample data set that you now see on your
+screen, includes data for customers who have purchased used cars. In this data set there are a total number
+of fifteen records. And if you want to see how many unique car
+dealers there are in the data set, you can use the DISTINCT() function to isolate the
+unique car dealers. If you combine COUNT() with DISTINCT(), you
+get a count of the total number of unique, or distinct, car dealers. Which in our data set is 8. Aggregation functions also help to provide
+an overview of the data set from different perspectives. Such as, using the SUM() function to calculate
+the sum of a numeric column in a table. Using the AVG() function to calculate the
+average value of a numeric column. And using the STDDEV() function to measure
+how spread out the numbers are in a data set. In our data set, for example, we can use the
+STDDEV() function to see how spread out the cost of a used car is. The average cost for a used car is a little
+less than six thousand dollars. But if you look at some of the individual
+rows, you see a significant number of records showing less than two thousand dollars and
+just two records with twenty-five thousand dollars and above. And the standard deviation is over eleven
+thousand. The greater the standard deviation value,
+the wider the spread. So, as you can see from this example, looking
+at the standard deviation brings a different perspective to the data set. The next type of analysis is to identify extreme
+values in a data column. Such as, the MAX() function, which gives you
+the maximum value in a column. For example, the highest amount spent by a
+customer in our data set is thirty-seven dollars. And the MIN() function, which gives you the
+minimum value in a column. Which, in our data set, is a thousand dollars. Now, let’s say you want to find customers
+based on a specific condition, or set of conditions. Slicing a data set lets you do that. In this data set, for example, you would use
+the SLICE() function if you want to retrieve data for customers who live in a certain area
+or have purchased their car from dealers in a specific area or those who spent between
+one thousand and two thousand dollars for their car. You can also use operators that allow you
+to specify multiple values—for example, customers who spent between one thousand and
+two thousand dollars on their car and live in a specific area. This brings us to sorting data, which helps
+to arrange data in a meaningful order, making it easier to understand and analyze. For example, if you want to see if car sales
+go up around festival time, you can sort the data set on the date of purchase to see if
+a large number of sales transactions took place around that time. And you can do this using the ORDER BY() function. The ORDER BY() function also allows you to
+sort a data column in ascending or descending order. Another powerful querying technique is filtering
+patterns, which allows us to perform partial matches of data values. Unlike an EQUAL TO operator, that returns
+records in which a data value matches a certain value, the LIKE operator helps you to specify
+a pattern to return records that match a data value partially. In our data set, for example, let’s say
+we want to filter data for all purchases that happened in a region. The first three digits in the pincodes within
+this region are constant, but the remaining two digits vary for each area within that
+region. In this case, we can use the LIKE() operator
+to specify the pattern we know we are looking for, which in this case is the first three
+digits. And use wildcard characters for the fourth
+and fifth digits in the pincode, since these will be different for each area. Which brings us to another important tool
+for analysis—grouping data. Grouping of data is performed using the GROUP
+BY statement. For example, you want to find out the total
+amount spent by customers, pincode-wise. We can use SUM() and GROUP BY to find out
+the total amount spent by customers grouped by their pincode. In this video, you learned about some of the
+querying techniques used for performing some basic, but crucial, data analysis tasks.

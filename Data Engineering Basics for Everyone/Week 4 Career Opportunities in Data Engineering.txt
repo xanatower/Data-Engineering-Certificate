@@ -1,0 +1,54 @@
+In this video, we will learn
+about career opportunities in data engineering. To start with, let’s get a high-level view
+of this job market as cited in some of the popular and credible sources in the industry.
+According to LinkedIn’s 2020 Emerging Jobs Report, data engineering now joins machine
+learning and data science as one of the top-10 “jobs experiencing tremendous growth”
+in the U.S., with industries from retail to automotive taking notice and making this hard-to-hire
+talent a part of their teams. Dice Tech Job Report of 2020 lists data engineering
+as the fastest growing tech occupation with a year-over-year growth of 50%. And with more
+and more companies competing to find the right talent for their expanding data infrastructure,
+it is expected to grow even further in years to come.
+The report goes on to identify Healthcare, Technology, and Consulting as the three fields
+with the largest need for data science talent as a whole, including data engineering. Though
+no industry in the coming times, says the report, is going to be untouched by this discipline.
+Data engineering jobs are listed as one of the top 10 jobs in Glassdoor’s best jobs
+in America for 2020. The criteria for the listing includes earning potential, job satisfaction
+ratings, and number of job openings. There is a wide variety of job roles available for data engineers. Job titles are fluid, and
+a data engineering role can look a little different at every company.
+Typically, data engineering roles in organizations tend to break the specialization up into Data
+Architecture, Database Design and Architecture, Data Platforms, Data Pipelines and ETL, Data
+Warehouses, and Big Data. The roles may all be labeled generically as
+“Data Engineers” or carry specific titles such as Data Architect, Database Architect,
+ETL Engineer, Data Warehouse Engineer, and Big Data Engineer. If your organization wants
+you to focus on implementing and managing a cloud-based data lake, for example, your
+job title probably will be Data Lake Engineer. But in each of these niche openings, knowledge
+of operating systems, languages, databases, and infrastructure components, such as virtual
+machines, networking, and application services, would be a given expectation. As also data’s
+potential application in business. It may also be that you get an opportunity
+to work on the whole data engineering lifecycle at once, typically in a small team or startup
+that is just starting to build their data engineering practice. But as the practice
+grows, a multidisciplinary engineering team would start to take shape. If you are part of an organization that has set up a data engineering practice, then you will likely start your journey as an Associate (or Junior) Data Engineer and work your way up through Data Engineer, Senior Data Engineer, Lead Data Engineer, and Principal Data Engineer roles. Growing up the ranks could be a bit like navigating
+a matrix. You will be required to not only expand your skills in your niche but also
+branch into other areas of data engineering. For example, from being a Data Architect to
+gaining a functional understanding, if not hands-on experience, of data warehouses, data
+lakes, data pipelines, and the ETL process. Growth in data engineering is characterized
+not only by the expanse of tools and technologies that you understand and can work with but
+also how much of the big picture you’re able to see in the data engineering lifecycle. Your communication skills, your ability to
+collaborate with diverse technical and business stakeholders, your operational or project
+management skills—all need to be growing progressively in order for you to grow into
+lead positions. As a lead, you will handle growing responsibilities.
+Such as spending more time on converting business requirements into technical specifications
+and being the bridge between what business wants and what technical teams develop. You
+would also be evaluating and weighing in on the tools and platforms that you should be
+using as a team. And gaining greater responsibility for implementing systems, processes, and tools
+for ensuring data quality, data privacy, and compliance with regulations. Now let’s look at a few of the emerging
+roles in the field. Big Data Engineers and Machine Learning Engineers are couple of emerging
+roles that require specialized skills in addition to basic data engineering.
+Big Data Engineers work with big data stores, platforms, and processing tools like Hadoop
+and Spark. They specialize in the management of big data pipelines, and movement and processing
+of data at scale. Machine Learning Engineers design and implement
+machine learning algorithms, and work with large datasets of structured and unstructured
+data. This role is an intersection of data engineering and data science and AI skills. In this video, you learned about
+some of the career opportunities in the field of data engineering.
+To grow as a data engineer, you will need to constantly learn and implement new tools
+and technologies as they emerge. And you will also need to be a curious and aware team member.

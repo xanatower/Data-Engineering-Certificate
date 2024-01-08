@@ -1,0 +1,64 @@
+In this video, we will listen to
+several data professionals talk about the different paths you
+can take to get into data engineering. So there's a number
+of ways of becoming a data engineer. You can get a degree
+from a college or university in a field like software
+engineering or computer science, and that's how I did it. But
+this option can be expensive and it requires an investment of a
+number of years of your life. And even then, you know, you will need to likely
+supplement your skills with beyond what has been taught in school to match the
+requirements of a real job. But if you already have a degree
+in another field, or you simply don't have the luxury to invest
+several years in getting a degree, you can do a shorter
+diploma program or bootcamp in a physical location, or take
+online courses and certificate programs, which can be both
+part-time and full-time. So regardless of the option
+that you choose, be careful about selecting the right program. Look at its cost, the time it
+takes to complete, whether it's from a reputed provider. Is the
+content up-to-date? And look at the reviews. Talk to people
+who have completed the program. And also make sure that the
+program matches your learning style. Are you motivated enough
+to self-learn online or do you require some hand holding?
+You can become a data engineer from a variety of existing
+roles. So if you are a System Administrator, that's a
+good starting point. You can master an OS, a database, and
+then you can become a data engineer. If you're a
+database administrator, you're only one step closer to being a data engineer. If you're an
+automation engineer, if you are good at automating manual tasks,
+then from that path you can move into being a data engineer. If you are a data analyst you
+already know a lot about data. So that's also a good starting
+point for you to become a data engineer. If you're a
+programmer, even from being a programmer, you can move into a data engineer. You can start as
+a DBA and transition into the data engineering, which worked
+pretty well for some of my colleagues and myself. Another
+path that I can think of is a natural transition into the data
+engineering is from the ETL development track. Bottom line
+is a data engineer should be very knowledgeable with the
+databases and different kinds of data sources and data formats, and use that knowledge to build the
+data pipelines. And part from these technical skills and technical track, I think
+academically if you have a background with the computer
+science and mathematics, I think it will help you greatly. It
+will reduce your time to become a great data engineer.
+So the entire field of data engineering is relatively new.
+And as I mentioned earlier, different companies also have
+different requirements for each data engineer. So that basically
+means there are lots of different ways, different paths,
+you can get into data engineering. I have several colleagues at
+Coursera they started computer science at college and
+they entered into data engineering directly after
+graduation. I also have some data engineer friends they used to be software engineers. And those
+folks that have very strong technical background before
+entering into their engineering path but that's not really necessary. You can enter into data engineering
+without very strong computer science background. So my experience good example. I worked many years
+in non-tech positions in non-profits. So I
+didn't have strong background but I started
+as a business intelligence analyst in the non-profits
+where I honed my skills. I honed my skills in SQL, in data modeling, and database. Then I enter into data engineering
+at Coursera. So the typical paths I see for data engineering
+are coming in either through a system engineering or a
+developer side. Those are the typical directions we see. Coming in from a helpdesk, I
+tend to like that a little bit just because you get a
+sense of somebody's work ethic from having come in from that
+direction. But more often you're going to see somebody
+who started as a developer or somebody who started as a
+system administrator.

@@ -1,0 +1,76 @@
+In this video, we will listen to
+several data professionals talk about what employers look for in
+in a data engineer. This is a very tricky question
+because there is no straight answer to this question. Employers look
+for an individual who has exposure to a breadth of various data-related technologies. It really varies from job to job or role to role. For
+example, some roles look for individuals who has exposure to
+various kinds of data sources, from relational databases to
+NoSQL databases, to in-memory databases or key-value stores. And some of the roles look
+for individuals with heavy experience geared towards the
+data movement processes. That means they need to be able to
+work on moving the data from a variety of data sources, from
+RDBMSes to NoSQL databases, from pulling the data from social
+media using APIs and loading them into their analytical
+databases such as Hadoop. Apart from that they also look for
+good analytical and problem solving skills in a data engineer. When I'm hiring
+somebody in a data field, there are a number of things I look
+for. One is I look for somebody who is inquisitive, somebody who
+doesn't just take the data given to them, but asks additional
+questions just to figure out what direction to take
+something. One of the primary questions I ask when I'm when
+I'm interviewing for that particular trade is, I say, hey,
+somebody comes to you, they say the database is slow. What do
+you do? And I'm not looking for them to say I tune memory. I'm
+not looking for them to say I look at this metric. I'm looking for them to ask
+questions and think about different directions of slowness
+we could come from, things like that. So somebody who is
+inquisitive, somebody who can communicate really well;
+you're never working in a vacuum as a data professional,
+and there's a lot of other people that you're going to
+have to interact with. Somebody with a strong work
+ethic, somebody who really owns what they work with, and
+what they do. Those are all things that I'm really looking
+for. I think it is very company-specific. In a big company, data engineer may
+be able to have a narrow focus. For example, just building ETL
+pipeline while in a small startup, data engineer may need
+to wear different hats. And the employer would require,
+would expect, the engineer to have very broad skills. In
+many cases I think... I think... the SQL, data modeling, and ETL
+methodologies, as well as programming skills, such as
+Python, are pretty essential ones for engineering. And besides
+those technology skills, I believe employers
+also want to see curiosity, good communications, and love of learning in their data
+engineers. Employers look for skills on RDBMS. They look for expertise on
+NoSQL databases. They see if you have any expertise
+on schema design. They want to know if you can
+work on ETL and ELT. They also want to see if you can
+handle streaming data. They would love you to be
+able to handle multiple data formats, file formats. They also want to see you to be
+able to work on, or to be able to work with, web API's, data
+scraping, you know, web scraping. And any kind of even basic data,
+analytical skills are looked for. And most importantly, they look
+for problem solving and if you can automate any routine work
+that has to be done at the workplace. When I'm looking at technical
+skills, I mean the technical skills, I'm looking for somebody
+who's familiar with at least one of the technologies
+I'm looking for; somebody who has a good starting place to go to
+to learn deeper in that area. If I'm looking at a very senior
+level position then I'm looking for very specific technical
+skills because I have a specific technical need that I
+need filled. But at a junior level I'm looking for a general
+fluency with technology and more soft skills than I am
+specific technical skills. And some of that is asking them what
+they've done to learn the field. What have they done to... What
+courses have they taken? What blogs do they read? What
+directions are they taking to learn more? So having the right
+credential, a degree or a certificate, is a good starting
+point to get noticed. But you also need to be able to
+demonstrate that you have the right technical and soft skills
+and then stand out from the other candidates. So for
+example, what projects have you worked on? Have you done any
+technical writeups, presentations, videos in this field? And then there are
+soft skills like being able to clearly communicate and
+articulate your work. Whether you're a good fit with
+the organization is another thing that we look at. For example, if you're going to
+be working in a team of people, do you have the skills
+for good teamwork?

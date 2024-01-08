@@ -1,0 +1,85 @@
+In this video, we will listen
+to several data professionals talk about the different
+paths you can take to get into data engineering. For folks who want to be data
+engineers, I want to share two pieces of advice.
+First, focus on building a strong foundation. Data engineering is a relatively
+new field and every year there are also new technologies emerging. It is important to learn those
+new technologies. But as a starting point I think we
+should build a strong foundation in SQL, Python,
+data modeling and ETL methodologies. Second, pay attention to hands-on experience. Nothing is worth more
+in data engineering than hands-on experience. You
+may think it is hard to get hands-on experience without a
+full-time job or internship, but it shouldn't be that hard. In data engineering world there
+are lots of open-source tools, or framing tools, with the support
+of enormous online learning materials. I believe there are
+many ways you can leverage those tools to do your personal
+projects and to practice. Having had experience would not only
+help your resume to stand out in the candidate pool, but would
+also enable you to tackle a lot of questions during the interview process. So my first
+advice to anybody working towards becoming a data engineer
+would be to practice; to find things that you can do
+that will give you practice in the area. One of my
+favorite junior DBAs that I work with used to bring his laptop to
+me with a VM on it and say, hey, break my database. And this was
+great because I would come up with every different way I had
+seen a database break and I would try to simulate it on his
+laptop and he would come up with solutions. And man, he was a
+great troubleshooter for having gone through that because he had
+seen a lot of the things that it took me years of experience to
+actually run into. So anyway, you can come up with to practice.
+And that can be coming up with your own project. That can be
+building a database for something in your life. And
+another one is to get involved with a professional
+organization. It's great to get involved with other people who
+are working in that area and to learn from them. What I give to
+the aspiring data engineer is learn database internals. If you
+understand the data structures that power these data sources,
+that's half the battle of the data engineer. Learn SQL and
+programming languages. I would say ideally one procedural
+language such as Shell Scripting or PL/SQL or Perl, and an
+object-oriented programming language, either Java or Python,
+and a functional programming language such as Scala. Once you gain certain expertise,
+try to share your knowledge with your peers in the community. For
+example, share your code in the GitHub public repositories or
+start writing articles on LinkedIn or create your own blog.
+And work extremely hard when you're relatively young and stay
+curious. If you do some of these things, I don't think you will
+have any kind of problem getting hired as a data engineer. Data
+Engineers are really in high demand these days. What I would recommend is to think
+about how you're sharing your knowledge and how you're giving
+back. I'm a Blogger. I write a lot about about Db2 and about
+data in general at DataGeek.blog. And that is one of the
+number one things. Even if you've been doing something for
+as little as six months, you may know more about some aspect of
+that thing than anybody else. So even if you've been working with
+a product for a very short amount of time, beginner blog entries are great.
+So it's really important as you're starting your journey in
+data engineering to share your knowledge and make sure that you
+are giving back to the data engineering community. So if you
+want to become a data engineer, you need to understand one
+thing. The whole concept of data engineering is a lot of skills;
+it's a lot of width. You need to master a variety of skills and
+tools. It can be very overwhelming. if you look at all
+those skills, or technologies, or tools at once. One RDBMS, choose
+any RDBMS that is available to you and you're comfortable with,
+and you can master one RDBMS. After that, move on to master at
+least one NoSQL database. It can be MongoDB, Cassandra, Neo4J
+React, or Radius. You can also understand concepts like web
+scraping an also start learning them. And also understand that in
+the future you will be expected to work with APIs. So APIs
+is way with which you can interact with other systems
+seamlessly. So the first thing is to build the right skills.
+Get your credentials and certificates and then
+demonstrate your expertise in technology or a product that you
+enjoy working with and is in demand. You know, write blog
+posts, write articles, create some YouTube videos or
+screencasts and demos. And you don't have to be an expert to be
+able to do so. One of great ways of learning something is to
+learn to be able to teach it to others. Join a local
+networking group or a meetup, You know, not just to learn, but
+also to meet with other people in the field and share your
+insights and experiences. Like other technology fields,
+data engineering is continuously evolving. And so make learning
+a part of, a continuous part, of your life long process. You know, keep learning and keep up with the new
+technologies and approaches to working with data. Wish you all
+the success on your journey to becoming a data engineer.
