@@ -1,0 +1,54 @@
+Welcome to this course on ETL and Data Pipelines
+with Shell, Airflow, and Kafka. This course is ideal for aspiring Big Data
+Engineers, Machine Learning Engineers, Data Warehousing Specialists as well as Developers. In this course you will master: Various ETL and Data Pipeline Tools and Techniques. You will utilize Bash Scripts as well as cutting-edge
+open-source tools such as Apache Airflow, and Apache Kafka to build Data Pipelines
+for processing and moving data between various systems in a data platform. You will practice what you learn through Hands-on
+Labs in each module, as well as demonstrate your newly acquired skills in a real-world
+inspired Final Project. This course has four instructors: Yan Luo, Jeff Grossman, Sabrina Spillner,
+and Ramesh Sannareddy. Yan Luo, Ph.D., is a data scientist and developer
+at IBM Canada. He has been building innovative AI and cognitive
+applications in various areas, such as mining software repositories, personalized health
+management, wireless networks, and digital banking. Yan received his Ph.D. in Machine Learning
+from the University of Western Ontario. Jeff Grossman, Ph.D., has a background in
+Pure Mathematics, Geophysical Signal and Image Processing, Medical Imaging, and Data
+Science and Engineering. He is the founder of 617 Data Solutions
+Inc. and serves as a Subject Matter Expert at Skill-Up Technologies, developing data-related
+educational content, and volunteers with CAMDEA Digital Forum as Associate Member, Alberta,
+Canada. Sabrina Spillner is a Senior Instructional
+Designer and Content Developer with Skill-up Technologies. She specializes in learning solutions across
+sectors. For the past 18 years, Sabrina has been a
+pathfinder, adopting new approaches and technologies to create innovative learning solutions. She has worked with Orbus Software, the EU,
+the University of Cambridge, KPMG UK, and KPMG LG. Ramesh Sannareddy holds a Bachelors' Degree
+in Information Systems from the Birla Institute of Technology, Pilani. He has two and a half decades of experience
+in Information Technology Infrastructure Management, Database Administration, Information Integration,
+and Automation. He worked for companies such as Intergraph,
+Genpact, HCL, and Microsoft. Currently, he is a freelancer and pursues
+his passion for teaching. He teaches Data Science, Machine Learning,
+Programming, and Databases. In this course, you will explore the fundamental
+principles and techniques behind ETL and ELT processes. In module 1, Data Processing Techniques, you
+will learn to: Describe what an ETL pipeline is. Describe why ELT is an emergent trend. Describe the trending shift from ETL to ELT. List examples of raw data sources. Name data loading techniques. Differentiate batch loading from stream loading. You will also explore how to construct a basic
+ETL data pipeline from scratch using Bash shell-scripting, and explore use cases for
+the two main paradigms within data pipeline engineering: batch and streaming data pipelines. In module 2, ETL and Data Pipelines Tools
+and Techniques, you will learn to: Describe how shell scripting can be used to
+implement an ETL pipeline. Describe what a data pipeline is. Describe data pipeline solutions for mitigating
+data flow bottlenecks. Differentiate between batch and streaming
+data pipelines. Discuss data pipeline technologies. You will also further cement this knowledge
+by exploring and applying a popular open-source data pipeline tool named Kafka. In module 3, Building Data Pipelines Using
+Airflow, you will learn to: List the main principles of Apache Airflow. Interpret Airflow pipelines as Python scripts
+that define Airflow DAG objects. List key advantages of defining workflows
+as code. Identify current DAGs in your environment
+and set up dependencies amongst tasks. Use logging capabilities to monitor the task
+status and diagnose problems with DAG runs. Further, you will explore Apache Kafka, another
+popular open-source data pipeline tool, and use it to get hands-on experience with streaming
+data pipelines, implementing Kafka’s message producers and consumers, and creating a Kafka
+weather topic. In module 4, Building Streaming Pipelines
+Using Kafka, you will learn to: List the main components of an ESP. Recognize Apache Kafka as an Event Streaming
+Platform. Describe an end-to-end event streaming pipeline
+example. Describe what the Kafka Streams API is. And finally, you can test your hands-on knowledge
+in module 5 – Final Project. Your assignments will be to complete a project
+to create an ETL pipeline using an Airflow DAG and build a streaming ETL pipeline using
+Kafka. To get the most from this course, watch every
+video and check your learning by taking all quizzes. Use the discussion forums to connect with
+your peers and the teaching assistants. And most importantly, make sure you complete
+the hands-on labs to practice your new skills and demonstrate your abilities. Congratulations on beginning the next step
+on this exciting journey. And good luck!

@@ -1,0 +1,36 @@
+Welcome to Comparing ETL and ELT. After watching this video, you will be able
+to: List key differences between ETL and ELT. Describe ELT as an evolution of ETL. Describe the trending shift from ETL to ELT. Differences between ETL and ELT: For one thing, the transformations happen
+in a different order: Transformations for ETL pipelines take place
+within the data pipeline, before the data reaches its destination, whereas Transformations for ELT are decoupled from
+the data pipeline, and happen in the destination environment at will. They also differ in flexibility in how they
+can be used: ETL is normally a fixed process meant to
+serve a very specific function, whereas ELT is flexible, making data readily available
+for self-serve analytics. They also differ in their ability to handle
+Big Data. ETL processes traditionally handle structured,
+relational data, and on-premise computing resources handle the workflow. Thus, scalability can be a problem. ELT on the other hand, handles any kind of
+data, structured and unstructured. To handle scalability problems posed by Big
+Data, ELT leverages the on-demand scalability offered by cloud computing services. With regard to data discovery and time-to-insight: ETL pipelines take time and effort to modify,
+which means users must wait for the development team to implement their requested changes. ELT provides more agility. With some training
+in modern analytics applications, end users can easily connect to and experiment with
+the raw data, create their own dashboards, and run predictive models themselves. ELT is a natural evolution of ETL. One of the factors driving that evolution
+is the demand to release raw data to a wider user base for the enterprise. Traditionally, ETL processes include an intermediate
+storage facility called a staging area. This is a holding area for raw extracted data,
+where you can run processes prior to loading the resulting transformed data into a data
+warehouse or a data mart. This sounds a lot like an ELT process, and
+the staging area fits the description of a data lake, which is a modern self-serve repository
+for storing and manipulating raw data. A traditional staging area, however, is not
+something that is usually shared across the company. It's a private, siloed area set aside
+for developing, monitoring, and performance tuning the data pipeline and its built-in
+transformations. Along with the ever-increasing ease-of-use
+and connection capabilities of analytics tools, raw data sources have become much more accessible
+to less technical end users. Accordingly, the paradigm is shifting to self-service data
+platforms. There is still a place for conventional
+ETL in developing data products, so ETL is not disappearing any time soon. However, there is a trend taking place – a
+trend which is favoring modern ELT over conventional ETL. The trend is being driven by the pain points
+that ELT solves, namely, the lengthy time-to-insight the challenges, for example, scalability,
+imposed by Big Data, and the conventional siloed nature of data. In this video, you learned that: Key differences between ETL and ELT are
+the location where the transformation takes place, flexibility, Big Data support, and
+time-to-insight. One of the factors driving the evolution
+from ETL to ELT is the demand to release raw data to a wider user base for the enterprise. Conventional ETL still has many applications,
+and still has its place. ELT is more flexible than ETL, enabling end-users
+to perform ad-hoc, self-serve data analytics in real-time.

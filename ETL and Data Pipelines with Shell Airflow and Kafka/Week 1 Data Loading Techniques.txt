@@ -1,0 +1,42 @@
+Welcome to Data Loading Techniques. After watching this video, you will be able to: List data loading techniques. Differentiate batch loading from stream loading. Explain push vs. pull. Describe parallel loading. There are many techniques for
+loading data, some of which are: “Full loading”: You can load an initial
+history into a database, after which “incremental loading” is applied to insert
+new data or to update already loaded data. You can schedule data loading
+to occur on a periodic basis, or you can load it as required, on demand. Data can be loaded in batches, or it can be
+streaming continuously to its destination. The data can be either pushed to a
+server or pushed to clients by a server. Data is usually loaded serially, but
+it can also be loaded in parallel. Full loading refers to loading
+data in one large batch. This is used, for example, when organizations
+want to start tracking transactions in a new data warehouse and they
+copy the existing transaction history from the old to the new system. Then it's a matter of incrementally
+loading transactions as they arise, thus ensuring the transaction history is tracked. With incremental loading, the
+target data store is appended to, such that only the changes are loaded. This is useful for accumulating
+historical data such as transactions, weather, and browsing history. The volume, velocity, and demand for the data determine whether the data is
+loaded in batches or streamed live. Data loading processes can be
+scheduled or initiated on demand. Data is often loaded on a schedule. For example: Daily point-of-sale transactions
+can be loaded into a database at the end of each day, during off-peak hours. Loading tasks can be scheduled with
+tools such as Windows Task Scheduler, or with cron on Unix-like systems. On-demand loading is also very common, and
+relies on triggering mechanisms such as: when the source data reaches a specified size. when an event is detected by the source system,
+such as motion, sounds or temperature changes, when a user requests data, such as
+online videos, music, or web pages. Batch and stream data loading are two
+ends of a spectrum of loading methods. Batch loading refers to loading data
+in chunks defined by some time windows of data accumulated by the data source,
+usually on the order of hours to days. At the other end of the spectrum we have stream loading, which loads data
+in real time as it becomes available. In between batch and stream loading,
+we have micro-batch loading. This is used when imminent processes need
+access to a small window of recent data. Push and pull data-loading methods
+are based on a client-server model. A “pull” refers to a client
+initiating a request for data from a server. The server then responds to the
+client’s request and delivers the data. Examples of pull technologies
+include RSS feeds and email. With “push” technology, the client subscribes
+to a service provided by a server, so that the server can then push data
+to the client as it becomes available. Examples include push notifications
+and instant messaging services. Parallel loading can be employed on multiple
+data streams to boost loading efficiency, particularly when the data is big
+or has to travel long distances. Similarly, by splitting a single file into smaller chunks, the chunks
+can be loaded simultaneously. In this video, you learned that: Some data loading techniques are
+scheduled, on-demand, and incremental. Data can be loaded in batches, or it can
+be streamed continuously into its destination. Servers can push data to subscribers
+as it becomes available. Clients can initiate pull
+requests for data from servers. You can employ parallel loading to boost
+loading efficiency of large volumes of data.

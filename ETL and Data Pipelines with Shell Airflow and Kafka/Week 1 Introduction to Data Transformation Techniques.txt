@@ -1,0 +1,37 @@
+Welcome to Introduction to Data Transformation
+Techniques. After watching this video, you will be able
+to: Name data transformation techniques. Compare schema-on-write vs. schema-on-read. List ways information can be “lost in transformation.” Data transformation is mainly about formatting
+the data to suit the application. This can involve many kinds of operations,
+such as: Data typing, which involves casting data to
+appropriate types, such as integer, float, string, object, and category. Data structuring, which includes converting
+one data format to another, such as JSON, XML, or CSV to database tables. Anonymizing and encrypting transformations
+to help ensure privacy and security. Other types of transformations include: Cleaning operations for removing duplicate
+records and filling missing values. Normalizing data to ensure units are comparable,
+for example, using a common currency. Filtering, sorting, aggregating, and binning
+operations for accessing the right data at a suitable level of detail and in a sensible
+order. Joining, or merging, disparate data sources. Schema-on-write is the conventional approach
+used in ETL pipelines, where the data must be conformed to a defined schema prior to
+loading to a destination, such as a relational database. The idea is to have the data consistently
+structured for stability and for making subsequent queries much faster, but this comes
+at the cost of limiting the versatility of the data. Schema-on-read relates to the modern ELT approach,
+where the schema is applied to the raw data after reading it from the raw data storage. This approach is versatile since it can obtain
+multiple views of the same source data using ad-hoc schemas. Users potentially have access to more data
+since it doesn't need to go through a rigorous pre-processing step. Whether intentional or accidental, there are
+many ways in which information can be 'lost in transformation'. We can visualize this loss as follows. Raw data is normally much bigger than transformed
+data. Since data usually contains noise and redundancy,
+we can illustrate the 'information content' of data as a proper subset of the data. Correspondingly, we can see that shrinking
+the 'data volume' can also mean shrinking the 'information content'. Either way, for ETL processes, any lost information
+may or may not be recoverable, whereas with ELT, all the original information content
+is left intact because the data is simply copied over as-is. Examples of ways information can be lost in
+transformation processes include: Lossy data compression. For example, converting
+floating point values to integers, reducing bitrates on audio or video. Filtering. For example, filtering is usually
+a temporary selection of a subset of data, but when it is permanent, information can
+easily be discarded. Aggregation. For example, average yearly sales
+vs. daily or monthly average sales. Edge computing devices. For example, false
+negatives in surveillance devices designed to only stream alarm signals, not the raw
+data. In this video, you learned that: Data transformation is generally about formatting
+data to suit the needs of the intended application. Common transformation techniques include typing,
+structuring, normalizing, aggregating, and cleaning. Schema-on-write is the conventional approach
+used in ETL pipelines, and Schema-on-read relates to the modern ELT approach. Ways of losing information in transformation
+processes include filtering, aggregation, using edge computing devices, and lossy data
+compression.

@@ -1,0 +1,39 @@
+Welcome to Data Extraction Techniques. After watching this video, you will be able to: List examples of raw data sources. Describe data extraction techniques. Relate use cases with data
+sources and extraction techniques. Here are some examples of raw data sources: Archived text and images
+from paper documents and PDFs Web pages, including text,
+tables, images, and links Analog audio and video, which can be recorded on media such as
+magnetic tapes or streaming in real time Survey data, statistical, and economic data Transactional data from business, financial, real
+estate, and point-of-sale, or POS, transactions Here are more examples of raw data sources: Event-based data such as social media streams Weather data from weather station networks Internet of Things (or IoT) sensor streams Medical records, such as prescription history,
+medical treatments, and medical images Personal genetic data encoded
+in DNA and RNA samples Evidently, data is everywhere. And much
+of it is highly sensitive and personal, and needs to be very carefully guarded
+for privacy and other concerns. There are many techniques for extracting data, depending on the kind of data source and the
+intended use of the data. Examples include: Optical character recognition (OCR),
+which is used to interpret and digitize text scanned from paper documents so it
+can be stored as a computer-readable file Analog-to-digital converters (ADCs), which can
+digitize analog audio recordings and signals, and charge-coupled devices (CCDs)
+that capture and digitize images Opinions, questionnaires, and vital statistical
+data obtained through polling and census methods Cookies, user logs, and other methods used
+for tracking human or system behavior More techniques include: Web scraping, used to crawl web pages in
+search of text, images, tables, and hyperlinks. APIs, which are readily available
+for extracting data from all sorts of online data repositories and feeds, such as
+government bureaus of statistics, libraries, weather networks, online
+shopping, and social networks. SQL languages for querying relational databases, and NoSQL for querying document, key-value,
+graph or other non-structured data repositories. Edge computing devices, such as
+video cameras that have built-in processing that can extract features from raw data Biomedical devices, such as microfluidic
+arrays that can extract DNA sequences Here are a few high-level examples of use cases, along with their raw data sources
+and extraction techniques. You can use APIs to extract
+data from multiple structured data sources for integration
+into a central repository. You can also use APIs to capture periodic or asynchronous events to store
+them in a history archive. Rather than transmitting potentially
+very large volumes of redundant data from IoT devices, you can use edge
+computing to reduce that data volume by extracting features of
+interest from the raw data. Often, this kind of extraction
+at the source is impractical so the data is migrated to storage as-is for
+further processing, analysis, or modeling. You can use medical imaging devices
+and biometric sensors to acquire data for diagnostic purposes. In this video, you learned that: Some examples of raw data sources are archived
+text and images from paper documents and PDFs, and web pages, including text,
+tables, images, and links. Many extraction techniques rely on sophisticated
+technology to capture information from raw data. SQL, NoSQL, web scraping, and APIs are
+important techniques for extracting data. You can use medical imaging devices and biometric sensors to acquire
+data for diagnostic purposes.

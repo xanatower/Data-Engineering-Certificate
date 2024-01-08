@@ -1,0 +1,35 @@
+Welcome to ELT Basics. After watching this video, you will be able to: Describe what an ELT process is, List use cases for ELT processes, and Describe why ELT is an emergent trend. What is an ELT process?​ ​ELT stands for: Extract, ​ Load, and ​ Transform.​ ​ELT is an acronym for a specific automated
+data pipeline engineering methodology.​ ELT is similar to ETL in that similar stages are involved but the order in which
+they are performed is different. For ELT processes, data is acquired and directly
+loaded, as-is, into its destination environment. From its new home, usually a sophisticated
+analytics platform such as a data lake, it can be transformed on demand
+and however users wish. ​ Like ETL, the first stage in
+the ELT process is Extraction. The Extraction process obtains the data from all sources and reads the data, often in an
+asynchronous fashion, into an application.​ The Loading process takes the raw data as-is,and loads it into its new environment, where modern
+analytics tools can then be used directly. The Transformation process for ELT is much
+more dynamic than it is for conventional ETL. Modern analytics tools in
+the destination environment enable interactive, on-demand exploration and visualization of your data, including advanced
+analytics such as modelling and prediction. Use cases for ELT processes
+typically fall within the high-performance computing and Big Data realms. Cases include: Dealing with the massive swings in scale that
+come with implementing Big Data products, Calculating real time analytics
+on streaming Big Data, and Bringing together data sources that are
+highly distributed around the globe. In terms of speed, moving data is usually
+more of a bottleneck than processing it, so the less you move it, the better. Therefore, ELT may be your best bet when you want flexibility in building a suite of
+data products from the same sources. Why is ELT emerging? Firstly, cloud computing solutions are evolving at
+tremendous rates due to the demands of Big Data. They can easily handle huge
+amounts of asynchronous data which can be highly distributed around the world. Cloud computing resources are practically
+unlimited, and they can scale on demand. Unlike traditional on-premises hardware, you
+only pay for the computing resources you use. You don’t have to worry about underutilizing
+resources, that is, overspending on equipment. With ELT, you have a clean separation
+between moving data and processing data. Of course, cloud computing is equally prepared to handle the most challenging cases
+for either of these two tasks. There may be many reasons to transform
+your data and just as many ways to do it. Thus, ELT is a flexible option that enables a variety of applications
+from the same source of data. Because you are working with a replica of the
+source data, there is no information loss. Many kinds of transformations can lead to
+information loss, and if these happen somewhere upstream in the pipeline, it may be a long
+time before you can have a change request met. Worse yet, the information may be forever
+lost if the raw data is not stored. In this video, you learned that: ELT processes are used for cases where
+flexibility, speed, and scalability are important. Cloud-based analytics platforms
+are ideally suited for handling Big Data and ELT processes
+in a cost-efficient manner. ELT is an emerging trend mainly because
+cloud platform technologies are enabling it.

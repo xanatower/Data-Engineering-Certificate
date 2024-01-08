@@ -1,0 +1,48 @@
+Welcome to ETL Fundamentals. After watching this video, you will be able to: Describe what an ETL process is, Describe what data extraction means, Describe what data transformation means, Describe what data loading means, and List use cases for ETL processes. What is an ETL process? ETL stands for Extract, Transform, and Load. ETL is an automated data pipeline engineering
+methodology, whereby data is acquired and prepared for subsequent use in an analytics environment,
+such as a data warehouse or data mart. ETL refers to the process of curating data from
+multiple sources, conforming it to a unified data format or structure, and then loading the
+transformed data into its new environment. The Extraction process obtains or reads
+the data from one or more sources. The Transformation process wrangles the data into a format that is suitable for its
+destination and its intended use. The final Loading process takes the transformed
+data and loads it into its new environment, ready for visualization, exploration,
+further transformation, and modelling. The curated data may also be utilized to
+support automation and decision-making. What is Extraction? To extract data is to configure access
+to it and read it into an application. Normally this is an automated process. Some common methods include: Web scraping, where data is extracted from web pages using applications such as Python
+or R to parse the underlying HTML code, and Using APIs to programmatically
+connect to data and query it. The source data may be relatively
+static, such as a data archive, in which case the extraction step would
+be a stage within a batch process. On the other hand, the data could be
+streaming live, and from many locations. Examples include weather station data,
+social networking feeds, and IoT devices. What is data transformation? Data transformation, also
+known as data wrangling, means processing data to make it conform
+to the requirements of both the target system and the intended
+use case for the curated data. Transformation can include any of
+the following kinds of processes: Cleaning: fixing errors or missing values. Filtering: selecting only what is needed. Joining disparate data
+sources: merging related data. Feature engineering: such as creating
+KPIs for dashboards or machine learning. Formatting and data typing: making the
+data compatible with its destination. What is data loading? Generally this just means writing data
+to some new destination environment. Typical destinations include databases,
+data warehouses, and data marts. The key goal of data loading is to make
+the data readily available for ingestion by analytics applications so that
+end users can gain value from it. Applications include dashboards, reports, and advanced analytics such as
+forecasting and classification. There are many use cases for ETL pipelines. A very large amount of information is
+either already recorded or being generated, but is not yet captured, or
+accessible, as a digital file. Examples include paper documents, photos and
+illustrations, and analog audio and video tapes. Digitizing analog data includes
+extraction by some form of scanning, analog-to-digital transformation, and,
+finally, storage into a repository. Online transaction processing (OLTP)
+systems don’t save historical data. Accordingly, ETL processes capture
+the transaction history and prepare it for subsequent analysis in an online
+analytical processing (OLAP) system. Other use cases include engineering ‘features’,
+or KPIs, from data sources, as preparation for: Ingestion by dashboards used by operations,
+sales and marketing, customers, and executives. Training and deploying machine learning models
+for prediction and augmented decision making. In this video, you learned that: ETL (Extract, Transform, Load) is an acronym for
+an automated data pipeline engineering methodology whereby data is acquired and prepared for
+subsequent use in an analytics environment, such as a data warehouse or data mart. The Extraction process obtains
+the data from one or more sources. The Transformation process wrangles the data into a format that is suitable for its
+destination and its intended use. The final Loading process takes the transformed
+data and loads it into its new environment, ready for visualization, exploration,
+further transformation, and modelling. ETL is used for curating data and making
+it accessible to end users, for example, training and deploying machine learning models
+for prediction and augmented decision making.
