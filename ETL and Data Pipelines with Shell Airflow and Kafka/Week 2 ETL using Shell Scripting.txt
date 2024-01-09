@@ -1,0 +1,44 @@
+Welcome to ETL Using Shell Scripting. After watching this video, you will be able
+to: Describe how shell scripting can be used to
+implement an ETL pipeline, and Explain how ETL scripts or/tasks can be scheduled. Imagine a scenario that you have been tasked
+with: reporting the hourly average, minimum and
+maximum temperatures from a remote sensor that supplies the temperature
+on demand and feeding the results to a dashboard every
+minute. You are given APIs that: read the temperature and print it to standard
+output, and load the stats to a repository which is available
+to a reporting tool such as a dashboard. Here is an outline of how this can be
+achieved using Bash scripting. Let's sketch the workflow for your ETL pipeline, starting with the weather station and its data
+interface. The extraction step involves obtaining
+a current temperature reading from the sensor using the supplied ‘get_temp’ API. You can append the reading to a log file,
+say ‘temperature.log’. Since you will only need to keep the most recent hour of
+readings, buffer the last 60 readings, and then just overwrite the log file with the buffered readings. Next, call a program, for example, a python
+script called ‘get_stats.py’, which calculates the temperature stats from the 60-minute log,
+and loads the resulting stats into the reporting
+system using the load_stats API. The stats can then be used to display a live
+chart showing the hourly min, max and average temperatures. You will also want to schedule your workflow
+to run every minute. Start by creating a shell script called ‘Temperature_ETL.sh’. You can create the file by using the touch
+command. Next, open the file with any text editor,
+such as ‘gedit’. In the editor, type in the Bash shebang to
+turn your file into a Bash shell script. Now you can add the following comments to
+help outline your tasks: Extract a temperature reading from the sensor
+using the supplied ‘get_temp’ API, Append the reading to a log file, say ‘temperature.log’. You only need to keep the most recent hour
+of readings, so buffer the last 60 readings. Call a program, say a python script called
+‘get_stats.py’, which calculates the temperature stats from the 60-minute log, and load the
+resulting stats into the reporting system using the supplied API. After you finish writing the ETL bash script,
+you will need to schedule it to run every minute. Now you can fill in some details for your
+task comments. Start by initializing your temperature log
+file on the command line with the touch command. In the text editor, enter a command to call
+the API to read a temperature, and append the reading to the temperature log. Now, just keep the last hour, or 60 lines,
+of your log file, by overwriting the temperature log with its last 60 lines. This completes the data extraction step. Suppose you have written a Python script,
+called ‘get_stats.py,’ which reads temperatures from a log file, calculates the temperature stats, and writes the result to an output file, so that the input and output filenames are specified
+as command line arguments. You can add the following line to your ETL
+script, which calls ‘python3’ and invokes your Python script ‘get_stats.py,’ using the readings in ‘temperature.log,’
+and writes the temperature stats to a CSV file called ‘temp_stats.csv.’ This completes the transformation component
+of your ETL script. Finally, you can load the resulting stats into
+the reporting system using the supplied API, by calling the API and specifying the temperature
+stats CSV as a command line argument. Next, don't forget to set permissions to make
+your shell script executable. Now it’s time to schedule your ETL job. Open the crontab editor. Schedule your job to run every minute of every
+day. Close the editor and save your edits. Your new ETL job is now scheduled and running
+in production. In this video, you learned that: ETL pipelines can be built from basic Bash
+scripts. An ETL job can be scheduled to run by creating
+a cron job for your Bash script.

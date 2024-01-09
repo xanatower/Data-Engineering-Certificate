@@ -1,0 +1,61 @@
+Welcome to Data Pipeline Tools and Technologies. After watching this video, you will be able to: Discuss data pipeline technologies. List open source and
+enterprise ETL and ELT tools, and List streaming data pipeline tools. There are many open source and commercial data
+pipeline tools and cloud services to consider. Typical features of modern enterprise-grade
+ETL and ELT products include the following: Fully automated data pipeline creation, from
+data extraction to loading in the destination. Ease of use: rule recommendations for extracting, transforming, and loading data –
+some tools even crawl your data. A drag-and-drop GUI for specifying rules and data
+pipeline flows – also known as “no-code” ETL. Transformation support for, and assistance with, complex transformations such as operations on
+strings, calculations, and merging data, and Security and compliance: modern tools
+encrypt data both in transit and at rest, and are certified compliant with industry
+and government regulations like HIPAA and GDPR. Python, along with the Pandas
+library, is a very popular and highly versatile programming environment
+for building data pipelines. Pandas uses a data structure called a data
+frame to handle Excel or CSV-style tabular data. It is a great tool for prototyping ETL
+pipelines and for exploratory data analysis, but it can be challenging to scale to Big Data, since data frame manipulations
+must be carried out “in-memory”. Libraries with similar data
+frame APIs include Dask, Vaex, and Apache Spark which can all
+help you to scale up to Big Data. For scalability, consider SQL-like alternatives
+to DataFrame APIs, such as PostgreSQL. Apache Airflow, another package based
+on the Python programming language, is a highly versatile and well-known example of an open-source “configuration as
+code” data pipeline platform. Apache Airflow was open-sourced
+by Airbnb, and was created to programmatically author, schedule,
+and monitor data pipeline workflows. It was designed to be scalable, and can handle an
+arbitrary number of parallel compute nodes, and Airflow integrates with most
+cloud platforms, including AWS, IBM, Google Cloud, and Microsoft Azure. Talend Open Studio is yet another open source
+data pipeline development and deployment platform. Talend Open Studio supports big data
+migration, data warehousing, and profiling, and it includes collaboration,
+monitoring, and scheduling capabilities. It also has an interactive drag and drop GUI,
+which allows you to create ETL pipelines. There is no need to write code, as
+Java code is automatically generated. It also connects to many data warehouses, such
+as Google sheets, RDBMS, IBM db2, and Oracle. Amongst the many enterprise
+data pipeline tools, AWS Glue is a fully managed ETL service that makes it easy for you to prepare and
+load your data for analytics. Glue crawls your data sources
+to discover data formats, and suggests schemas to store your data, and you can quickly create and run
+an ETL job using the AWS Console. Panoply is another enterprise
+solution, but its focus is on ELT rather than ETL. It handles data connection and
+integration without code, and comes with SQL functionality so you
+can generate views of your data. This frees your time to focus on data analysis
+rather than optimizing your data pipeline. Panoply also integrates with many dashboard
+and BI tools, including Tableau and PowerBI. Alteryx is another well-known
+commercial data pipeline tool. Alteryx is also a highly versatile, self-service
+data analytics platform with multiple products. It gives you drag-and-drop
+accessibility to built-in ETL tools. And, you don't need to know SQL or programming
+to create and maintain a complex data pipeline. IBM InfoSphere DataStage is a data integration tool
+for designing, developing, and running both ETL and ELT pipelines. InfoSphere DataStage is the data integration
+component of IBM InfoSphere Information Server. Like many other platforms, it also provides a
+drag-and-drop framework for developing workflows. InfoSphere DataStage also uses parallel processing and enterprise connectivity to
+provide a truly scalable platform. IBM Streams is a streaming data pipeline
+technology, which enables you to build real-time analytical applications
+using the Streams Processing Language, or SPL, plus Java, Python, or C plus plus. You can use it to blend data
+in motion with data at rest to deliver continuous intelligence in real time. Streams powers a Stream Analytics
+service that allows you to ingest and analyze millions of events per
+second with sub-millisecond latency, and IBM Streams comes packaged with IBM Streams
+Flows, a tool which allows you to drag and drop operators onto a canvas, and modify
+parameters from built-in settings panels. There are many other stream-processing
+technologies to consider, including: Apache Storm SQLstream Apache Samza Apache Spark Azure Stream Analytics, and Apache Kafka In this video, you learned that: Modern enterprise-grade data pipeline tools
+include technologies such as transformation support, drag-and-drop GUIs, and
+security and compliance features. Pandas, Vaex, and Dask are useful
+open-source Python libraries for prototyping and building data pipelines. Apache Airflow and Talend Open Studio allow
+you to programmatically author, schedule, and monitor Big Data workflows, and that Panoply is specific to ELT pipelines, while tools such as Alteryx and IBM InfoSphere
+DataStage can handle both ETL and ELT workflows. You also learned that stream-processing
+technologies include Apache Kafka, IBM Streams, SQLstream, and Apache Spark.

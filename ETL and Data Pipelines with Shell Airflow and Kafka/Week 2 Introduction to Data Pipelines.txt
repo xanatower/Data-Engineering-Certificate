@@ -1,0 +1,44 @@
+Welcome to Introduction to Data Pipelines. After watching this video, you will be able to: Define what a data pipeline is. Describe data pipeline performance
+in terms of latency and throughput. Give examples of data pipeline use cases. The concept of a pipeline applies broadly to any set of processes that are connected to
+each other sequentially. This means that the output of one process is passed along
+as input to the next process in a chain. For example, one way to move boxes from one
+place to another is to have a chain of friends, each passing the boxes one-by-one up the
+line to their nearest friend. Each friend is a processor, whose function is
+identical: get a box, pass a box. Mass production is similar, but
+transformations may differ from stage to stage. Data pipelines are pipelines that
+specifically move or modify data. The purpose of a data pipeline is to move
+data from one place or form to another. A data pipeline is a system which
+extracts data and passes it along to optional transformation
+stages for final loading. This includes low-level hardware architectures,
+but our focus here is on data pipelines as architectures driven by software processes, such
+as commands, programs, and processing threads. The simple Bash pipe command
+in Linux can be used as the 'glue' that connects such processes together. We can think of data flowing through a
+pipeline in the form of data packets, a term which we will use to
+broadly refer to units of data. Packets can range in size from a single
+record, or event, to large collections of data. Here, we have data packets queued for
+ingestion to the pipeline. The length of the data pipeline
+represents the time it takes for a single packet to traverse the pipeline. The arrows between packets represent the throughput delays, or the times
+between successive packet arrivals. You have just been introduced to two key performance considerations
+regarding data pipelines. The first is latency, which is the
+total time it takes for a single packet of data to pass through the pipeline. Equivalently, latency is the
+sum of the individual times spent during each processing
+stage within the pipeline. Thus overall latency is limited by
+the slowest process in the pipeline. For example, no matter how
+fast your internet service is, the time it takes to load a web page
+will be decided by the server's speed. The second performance
+consideration is called throughput. It refers to how much data can be fed
+through the pipeline per unit of time. Processing larger packets per
+unit of time increases throughput. Coming back to our example of having a chain
+of friends passing boxes from one to another, we can see in the right image, within limits, that
+passing bigger boxes can increase productivity. Let's list a few of the applications of data
+pipelines from the multitude of use cases: The simplest pipeline is one
+which has no transformations and is used to copy data from one
+location to another, as in file backups. Integrating disparate raw
+data sources into a data lake. Moving transactional records to a data warehouse. Streaming data from IoT devices
+to make information available in the form of dashboards or alerting systems. Preparing raw data for machine
+learning development or production. Message sending and receiving, such as
+with email, SMS, or online video meetings. In this video, you learned that: The purpose of a data pipeline is to move
+data from one place, or form, to another. We can visualize data flowing
+through a pipeline as a series of data packets flowing in and out, one by one. Latency and throughput are key design
+considerations for data pipelines. Use cases for data pipelines are many, and range from simple copy-and-paste-like
+data backups to online video meetings.

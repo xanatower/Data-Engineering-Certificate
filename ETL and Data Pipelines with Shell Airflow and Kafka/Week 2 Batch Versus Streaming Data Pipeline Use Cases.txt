@@ -1,0 +1,43 @@
+Welcome to Batch Versus Streaming
+Data Pipeline Use Cases. After watching this video, you will be able to: Differentiate between batch
+and streaming data pipelines. Describe micro-batch and
+hybrid Lambda data pipelines. List use cases for batch data pipelines. List use cases for streaming data pipelines. Batch data pipelines are used when datasets need
+to be extracted and operated on as one big unit. Batch processes typically operate periodically on a fixed schedule – ranging
+from hours to weeks apart. They can also be initiated based on triggers, such as when the data accumulating at
+the source reaches a certain size. Batch processes are appropriate for cases
+which don't depend on recency of data. Typically, batch data pipelines are
+employed when accuracy is critical, but competitive mission-critical streaming
+technologies are rapidly maturing. Streaming data pipelines are designed
+to ingest packets of information, such as individual credit card transactions or social
+media activities, one-by-one in rapid succession. Stream processing is used
+when results are required with minimal latency, essentially in real-time. With streaming pipelines, records or events
+are processed immediately as they occur. Event streams can also be appended to
+storage to build up a history for later use. Users, including other software
+systems, can publish (or write), and subscribe to (or read), event streams. By decreasing the batch size and increasing
+the refresh rate of individual batch processes, you can achieve near-real-time processing. Using micro-batches may also help with load
+balancing, leading to lower overall latency. Useful when only very short windows of
+data are required for transformations. The use case differences between
+batch and stream processing come down to a tradeoff between
+accuracy and latency requirements. With batch processing, for example,
+data can be cleaned. And thus you can get higher quality output, but this
+comes at the cost of increased latency. If you require low latency, your tolerance
+for faults likely has to increase. A Lambda architecture is a hybrid
+architecture, designed for handling Big Data. Lambda architectures combine batch
+and streaming data pipeline methods. Historical data is delivered in batches
+to the batch layer, and real-time data is streamed to a speed layer. These two layers
+are then integrated in the serving layer. The data stream is used to fill in the “latency
+gap” caused by the processing in the batch layer. Lambda can be used in cases
+where access to earlier data is required but speed is also important. A downside to this approach is the
+complexity involved in the design. You usually choose a Lambda architecture
+when you are aiming for accuracy and speed. Example use cases for batch
+data pipelines include: Periodic data backups. And transaction history loading. Processing of customer orders and billing. Data modelling on slowly varying data. Mid- to long-range sales
+forecasting and weather forecasting. Analysis of historical data. Diagnostic medical image processing. Use cases for streaming data pipelines
+are on the rise, and include cases such as Watching movies, and
+listening to music or podcasts. Social media feeds and sentiment analysis. Fraud detection. User behavior analysis and targeted advertising. Stock market trading. Real-time product pricing and Recommender systems. In this video, you learned that: Batch pipelines extract and
+operate on batches of data. Batch processing is used when accuracy is critical
+or there is no need for the most recent data. Streaming data pipelines ingest data
+packets one-by-one in rapid succession. Streaming pipelines are used when
+the most current data is needed. Micro-batch processing can be used
+to simulate real-time data streaming. Lambda architecture can be
+used in cases where access to earlier data is required
+but speed is also important.

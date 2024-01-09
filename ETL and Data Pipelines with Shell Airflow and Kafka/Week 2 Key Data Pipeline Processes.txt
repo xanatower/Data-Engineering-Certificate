@@ -1,0 +1,43 @@
+Welcome to Key Data Pipeline Processes. After watching this video, you will be able to: List key data pipeline processes. Describe data pipeline
+monitoring considerations, and Describe data pipeline solutions for
+mitigating data flow bottlenecks. Data pipeline processes typically
+have the following stages in common: Extraction of data from one or more data sources. Ingestion of the extracted
+data into the pipeline. Optional data transformation
+stages within the pipeline, and Final loading of the data
+into a destination facility. A mechanism for scheduling
+or triggering jobs to run. Monitoring the entire workflow, and Maintenance and optimization as required to
+keep the pipeline up and running smoothly. The data pipeline needs to be monitored once
+it is in production to ensure data integrity. Some key monitoring considerations include: Latency, or the time it takes for data
+packets to flow through the pipeline. Throughput demand, the volume of data
+passing through the pipeline over time. Errors and failures, caused by
+factors such as network overloading, and failures at the source or destination systems. Utilization rate, or how fully the pipeline's
+resources are being utilized, which affects cost. Lastly, the pipeline should also
+have a system for logging events and alerting administrators when failures occur. Ideally, at the moment, one stage has
+completed its process on a packet of data, the next packet in the queue would
+be available to it, just in time. In that case, the stage is never left
+to idle while the pipeline is operating, and there are no upstream bottlenecks. Extending this notion to
+all stages of the pipeline implies that all stages should take the
+same amount of time to process a packet. This means there are no bottlenecks, and we can say that the entire
+pipeline has been load-balanced. Let's take a closer look at this idea. Suppose your pipeline has a bottleneck in one of
+its stages, such as the longer red section here, which has more latency than the
+other stages in the pipeline. If it's possible to parallelize that stage, for example by splitting the data
+into two concurrent stages, like this, then you can reduce this stage's latency. There will be a little overhead
+in managing the parallelization and recombination of the output back into the
+pipeline, but the overall latency will be reduced. Due to time and cost considerations,
+pipelines are rarely perfectly load balanced. This means there will almost always be stages
+which are bottlenecks in the data flow. If such a stage can be parallelized, then it can
+be sped up to align better with the flow rate. A simple way to parallelize a process
+is to replicate it on multiple CPUs, cores, or threads, and distribute data packets as they arrive, in an alternating fashion amongst
+the replicated channels. Pipelines that incorporate parallelism are
+referred to as being dynamic or non-linear, as opposed to “static,” which
+applies to serial pipelines. Further synchronization between stages is likely
+still possible, and a typical solution is to include input and output, or I/O buffers
+as needed to smooth out the flow of data. An I/O buffer is a holding area for data, placed between processing stages
+having different or varying delays. Buffers can also be used to regulate
+the output of stages having variable processing rates, and thus may
+be used to improve throughput. Single input and output buffers
+are also used to distribute and gather loads on parallelized stages. In this video, you learned that: In addition to extraction, transformation,
+and loading, data pipeline processes include scheduling, triggering,
+monitoring, maintenance, and optimization. Pipeline monitoring considerations
+include tracking latency, throughput, resource utilization, and failures, and finally, unbalanced or varying loads can be mitigated by introducing parallelization
+and I/O buffers at bottlenecks.
